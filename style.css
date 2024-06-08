@@ -1915,7 +1915,7 @@ footer a:hover {
     position: relative;
     padding: 2rem;
     line-height: 1.7;
-    width: 100%;
+    width: 100vw;
     margin: none;
     text-align: start;
   }

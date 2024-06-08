@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pfeil nach unten und oben</title>
+  <style>
+    .dropdown-btn {
+      display: inline-flex;
+      align-items: center;
+      background-color: #f9f9f9;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 10px;
+    }
+
+    .arrow {
+      border: solid black;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+      margin-left: 5px;
+      transition: transform 0.3s ease;
+      transform: rotate(45deg);
+    }
+
+    .dropdown-btn.active .arrow {
+      transform: rotate(-135deg);
+    }
+
+    .dropdown-content {
+      display: none;
+      /* Hier können Sie Ihre eigenen Styles für das Dropdown-Menü hinzufügen */
+    }
+
+    .dropdown-content.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="dropdown-btn">
+    Menüpunkt
+    <span class="arrow"></span>
+  </button>
+  <div class="dropdown-content">
+    <!-- Inhalt des Dropdown-Menüs -->
+    <p>Hier ist der Dropdown-Inhalt.</p>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const dropdownBtn = document.querySelector('.dropdown-btn');
+      const dropdownContent = document.querySelector('.dropdown-content');
+
+      dropdownBtn.addEventListener('click', function() {
+        dropdownBtn.classList.toggle('active');
+        dropdownContent.classList.toggle('active');
+      });
+    });
+  </script>
+
+</body>
+</html>

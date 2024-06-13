@@ -8,7 +8,19 @@
   font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
-
+.insideabout {
+  display: grid; 
+  grid-template-columns: 1.3fr 0.7fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". ."; 
+    height:100%;
+  }
+  
+  .insid1 { grid-area: 1 / 1 / 2 / 2; text-align: 2rem; padding: 4rem; 
+    background-color: #77296f;}
+  .insid2 { grid-area: 1 / 2 / 2 / 3; text-align: center; align-self: center; padding: 2rem;}
 
 .faqbacki {
   background-image: url(systemische-psychotherapie-background.jpg);

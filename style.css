@@ -1717,7 +1717,7 @@ footer a:hover {
   }
 
   .contactside {
-    width: fit-content;
+    width: 100%;
     text-align: start;
     text-align: center;
     width: none;

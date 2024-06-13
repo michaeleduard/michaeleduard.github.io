@@ -10,6 +10,52 @@
 
 
 
+.faqbacki {
+  background-image: url(systemische-psychotherapie-background.jpg);
+    background-size: cover;
+    padding: 2rem;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.faq-container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  text-align: start;
+}
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.faq-question {
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  background-color: transparent;
+}
+.plus-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  margin-right: 10px;
+  color: #77296f;
+  font-weight: bold;
+}
+.faq-answer {
+  display: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+.faq-item.active .plus-icon {
+  transform: rotate(45deg);
+}
+.faq-item.active .faq-answer {
+  display: block;
+}
+
 .lagegraz {
   padding: 2rem;
   text-align: center;

@@ -22,8 +22,8 @@
     height:100%;
   }
   
-  .insid1 { grid-area: 1 / 1 / 2 / 2; text-align: 2rem; padding: 4rem; 
-    background-color: #77296f;}
+  .insid1 { grid-area: 1 / 1 / 2 / 2; text-align: 2rem; padding: 4rem; background: radial-gradient(50px at 0 0, #0000 98%, #77296f) 0 0 / 51% 51% no-repeat, radial-gradient(80px at 100% 0, #0000 93%, #77296f) 100% 0 / 51% 51% no-repeat, radial-gradient(30px at 0 100%, #0000 98%, #77296f) 0 100% / 51% 51% no-repeat, radial-gradient(80px at 100% 100%, #0000 98%, #77296f) 100% 100% / 51% 51% no-repeat;
+    transform: skewY(-11deg);}
   .insid2 { grid-area: 1 / 2 / 2 / 3; text-align: center; align-self: center; padding: 2rem;}
 
 .faqbacki {

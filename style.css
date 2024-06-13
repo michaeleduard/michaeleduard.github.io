@@ -27,6 +27,7 @@
   background: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   text-align: start;
+	color:var(--primary-color);
 }
 .faq-item {
   border-bottom: 1px solid #ccc;

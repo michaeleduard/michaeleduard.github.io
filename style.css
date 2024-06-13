@@ -27,6 +27,7 @@
   background: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   text-align: start;
+	font-weight:bold;
 	color:var(--primary-color);
 }
 .faq-item {

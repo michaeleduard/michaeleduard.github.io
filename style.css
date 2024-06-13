@@ -1085,7 +1085,7 @@ button {
   font-size: 1rem;
   font-weight: 500;
   border-radius: 5px;
-  border:1px solid #ca2bfb;
+  border:1px solid var(--primary-color);
 }
 
 .sbn {
@@ -1099,7 +1099,7 @@ button {
 }
 
 .sbn:hover {
-  background-color: #ca2bfb;
+  background-color: #77296f8d;
   color: white;
   text-align: center;
   padding: 0.6rem 1.4rem;
